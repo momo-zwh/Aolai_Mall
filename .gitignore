@@ -1,0 +1,6 @@
+.idea
+.pytest_cache
+report
+__pychache__
+[credential]
+helper = store -–file .git-credentials
