@@ -1,0 +1,6 @@
+# Created by pytest automatically.
+.idea
+.pytest_cache
+report
+__pychache__
+[credential]
