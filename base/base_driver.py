@@ -16,11 +16,11 @@ def init_driver():
     desired_caps['appActivity'] = 'cn.neoclub.uki.login.SplashActivity'
 
     # 不重置应用
-    # desired_caps['noReset'] = True
-    # # 使用 Uiautomator2 框架
-    # desired_caps['automationName'] = 'Uiautomator2'
+    desired_caps['noReset'] = True
+    # 使用 Uiautomator2 框架
+    desired_caps['automationName'] = 'Uiautomator2'
 
-    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+    driver = webdriver.Remote('http://localhost:4725/wd/hub', desired_caps)
     return driver
 
 
